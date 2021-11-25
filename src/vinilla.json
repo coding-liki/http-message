@@ -1,0 +1,13 @@
+{
+  "name": "Http",
+  "vendor": "Psr",
+  "description": "Форк интерфейсов https://github.com/php-fig/http-message для использования в экосистеме VinillaLaPuh(VLP)",
+  "repo_url": "https://github.com/coding-liki/http-message",
+  "version": "0.2",
+  "depends_on": [
+    "CodingLiki/OoAutoloader"
+  ],
+  "psr-4": {
+    "Psr\\Http\\Message\\": "src/"
+  }
+}
